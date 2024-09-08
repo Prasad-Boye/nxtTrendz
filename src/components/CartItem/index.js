@@ -19,7 +19,6 @@ const CartItem = props => (
         quantity,
         price,
         imageUrl,
-        id,
       } = cartItemDetails.cartItemDetails
 
       const increaseItemCount = () =>
